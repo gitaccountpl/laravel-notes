@@ -14,7 +14,7 @@ Nazwa i anaczenie plików w Laravel:
 
 -----------------------------POCZATEK /ROUTES/WEB.PHP-----------------------------
 /routes/web.php <- dodawanie nowego route czyli kontrollerow: (PAMIETAJ ZE TRZEBA DODAC NAGLOWKI W PLIKU WEB.PHP
-                                                                DLA KOTNTOLLEROW)
+                             DLA KOTNTOLLEROW) dla tego co ma byc wyswietlone
 
 Route::get('/', function () {    // <--------------- to znaczy ze nie trzeba tworzyc kontrollera
     return view('welcome');
