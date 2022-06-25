@@ -1,10 +1,15 @@
 1. instalacja composer i npm.
-
+-------------------------------------------------------------------------
 cmd: php artisan
 cmd: php artisan serve -> uruchamianie http serwera
 
 2. tworzenie nowego projektu -> cmd: laravel new post
 -------------------------------------------------------------
+
+3. npm install & npm run dev  <------------------- kompilacja (wszystko co laravel ma zamienia 
+npm run dev  (dwa razy)                            w plik minimalnego rozmiaru - do uzytku)
+-------------------------------------------------------------
+
 
 Nazwa i anaczenie plików w Laravel:
 
