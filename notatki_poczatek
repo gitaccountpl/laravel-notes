@@ -42,4 +42,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
         ^metoda ^pod jakim adresem    ^nazwa kontrollera    nazwa ^ metody do wykonania ^nazwa uproszczona "home" 
 -----------------------------KONIEC /ROUTES/WEB.PHP-----------------------------
 
-
+TERAZ MOZNA FORMATOWAC KOD:
+resources#views#layouts#app.blade.php <--------------- ten plik jest "szablonem dla innych plikow"
+resources#views#posts#index.blade.php <--------------- ten plik zmieniamy
