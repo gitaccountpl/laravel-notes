@@ -22,3 +22,5 @@ Route::get('/', function () {    // <--------------- to znaczy ze nie trzeba two
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home'); <---------- tu z kontrollerem
         ^metoda ^pod jakim adresem    ^nazwa kontrollera    nazwa ^ metody do wykonania ^nazwa uproszczona "home" 
 -----------------------------KONIEC /ROUTES/WEB.PHP-----------------------------
+
+
