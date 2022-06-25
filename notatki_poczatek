@@ -19,6 +19,18 @@ Nazwa i anaczenie plików w Laravel:
 Route::get('/', function () {    // <--------------- to znaczy ze nie trzeba tworzyc kontrollera
     return view('welcome');     // <--------------- to jest plik: /resources/welcome.blade.php 
 });
+
+ZOABACZ PLIKI:
+resources#views#layouts#app.blade.php
+resources#views#posts#index.blade.php
+TERAZ MOZNA:
+                ^^^^^^^^^^^^^^^^^^^^^
+Route::get('/', function () {
+    return view('post.index');
+});
+
+
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home'); <---------- tu z kontrollerem
         ^metoda ^pod jakim adresem    ^nazwa kontrollera    nazwa ^ metody do wykonania ^nazwa uproszczona "home" 
 -----------------------------KONIEC /ROUTES/WEB.PHP-----------------------------
