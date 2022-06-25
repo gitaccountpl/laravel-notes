@@ -8,11 +8,16 @@ cmd: php artisan serve -> uruchamianie http serwera
 
 Nazwa i anaczenie plików w Laravel:
 
+----------------------------------------------------------------------------------
 .env <- konfiguracja np: mysql
+----------------------------------------------------------------------------------
 
-/routes/web.php <- dodawanie nowego route czyli kontrollerow:
+-----------------------------POCZATEK /ROUTES/WEB.PHP-----------------------------
+/routes/web.php <- dodawanie nowego route czyli kontrollerow: (PAMIETAJ ZE TRZEBA DODAC NAGLOWKI W PLIKU WEB.PHP
+                                                                DLA KOTNTOLLEROW)
 
 Route::get('/', function () {    // <--------------- to znaczy ze nie trzeba tworzyc kontrollera
     return view('welcome');
 });
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home'); <---------- tu z kontrollerem
+-----------------------------KONIEC /ROUTES/WEB.PHP-----------------------------
