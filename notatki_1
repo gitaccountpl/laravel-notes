@@ -1,3 +1,18 @@
 1. instalacja composer i npm.
+
+cmd: php artisan
+cmd: php artisan serve -> uruchamianie http serwera
+
 2. tworzenie nowego projektu -> cmd: laravel new post
 -------------------------------------------------------------
+
+Nazwa i anaczenie plików w Laravel:
+
+.env <- konfiguracja np: mysql
+
+/routes/web.php <- dodawanie nowego route czyli kontrollerow:
+
+Route::get('/', function () {    // <--------------- to znaczy ze nie trzeba tworzyc kontrollera
+    return view('welcome');
+});
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home'); <---------- tu z kontrollerem
