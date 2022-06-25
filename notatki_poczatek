@@ -28,8 +28,8 @@ Route::get('/', function () {    // <--------------- to znaczy ze nie trzeba two
 });
 
 ZOABACZ PLIKI:
-resources#views#layouts#app.blade.php
-resources#views#posts#index.blade.php
+resources#views#layouts#app.blade.php <------- szablon dla innych plików ktore go posiadaja
+resources#views#posts#index.blade.php <------- ten plik zmieniamy
 TERAZ MOZNA:
                 ^^^^^^^^^^^^^^^^^^^^^
 Route::get('/post', function () {  <--------------- http://127.0.0.1:80/post
