@@ -1,1 +1,1 @@
-<link rel="stylesheet" href="{{ asset('css/app.css') }}"> <-------- asset znajduje sciezke
+<link rel="stylesheet" href="{{ asset('css/app.css') }}"> <-------- asset znajduje sciezke (BASE PATH)
