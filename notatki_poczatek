@@ -25,7 +25,7 @@ resources#views#layouts#app.blade.php
 resources#views#posts#index.blade.php
 TERAZ MOZNA:
                 ^^^^^^^^^^^^^^^^^^^^^
-Route::get('/', function () {
+Route::get('/post', function () {  <--------------- http://127.0.0.1:80/post
     return view('post.index');
 });
 
